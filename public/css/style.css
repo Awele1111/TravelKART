@@ -169,8 +169,12 @@ body {
     border-radius: 20px;
     color: #fff;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
   }
   
+  #logout:hover{
+    color: #007bff;
+  }
   @media (max-width: 768px) {
     .row {
       flex-direction: column;
