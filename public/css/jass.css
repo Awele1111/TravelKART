@@ -1,4 +1,7 @@
 /* Style the dropdown button */
+*{
+font-family: 'Times New Roman', Times, serif;
+}
 .dropbtn {
     /* background-color: #4CAF50; */
     color: white;
