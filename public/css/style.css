@@ -105,7 +105,9 @@ body {
 } */
 
 
-
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 .row {
     display: flex;
     justify-content: center;
@@ -158,6 +160,15 @@ body {
   
   .btn-primary:hover {
     background-color: #0069d9;
+  }
+  #logout{
+    border: none;
+    border-style: hidden;
+    background-color: #ee6e73;
+    padding:9px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
   }
   
   @media (max-width: 768px) {
