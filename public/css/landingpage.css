@@ -3,10 +3,10 @@
     /* color: white; */
     opacity:initial;
 }
-/* body{
-    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.5)) url(https://media.istockphoto.com/id/1285301614/photo/young-man-arms-outstretched-by-the-sea-at-sunrise-enjoying-freedom-and-life-people-travel.jpg?s=612x612&w=0&k=20&c=0QW6GnkuFNYcPZhy26XVHuTc2avJTK8u6l_1iT0SlZk=) center/cover no-repeat;
+body{
+    background-image: url(https://media.istockphoto.com/id/835370890/photo/sunset-sunrise-with-clouds-light-rays-and-other-atmospheric-effect.jpg?s=612x612&w=0&k=20&c=zGDOBYVFY74wX2gUgkonYGtNl1zenev5mPotAqUlJbM=);
     flex-direction: column;
-} */
+}
 h1{
     font-size: 30px;
     font-weight: bold;
