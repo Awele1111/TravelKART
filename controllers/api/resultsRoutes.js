@@ -50,8 +50,6 @@
 const router = require('express').Router();
 const { User, Location } = require('../../models');
 
-router.get('/results', (req, res) => {
-  res.render('results', { logged_in: req.session.logged_in });
-});
+
 module.exports = router;
 

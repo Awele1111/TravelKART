@@ -73,10 +73,7 @@ router.get('/login', (req, res) => {
   res.render('login');
 });
 
-// router.get('results', (req, res) => {
-//   const resultsHtml = '<h1>Results Page</h1><p>This is the content of the results page.</p>';
-//   res.render('main', { body: resultsHtml, logged_in: req.session.logged_in });
-// });
+
 
 
 router.get('/results', async (req, res) => {

@@ -172,7 +172,7 @@ body {
   }
   #logout{
     border: none;
-    border-style: hidden;
+    /* border-style: hidden; */
     background-color: #ee6e73;
     padding:9px;
     border-radius: 20px;
