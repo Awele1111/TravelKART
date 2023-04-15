@@ -53,11 +53,29 @@ input{
     justify-content: center;
 }
 
+.input-box{
+    color: rgb(224, 232, 241);
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .form-control{
     color: white;
     align-items: center;
     justify-content: center;
 }
+
+.icons-container .icons {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    flex: 2rem;
+    background-color: bisque;
+    font-family: cursive;
+    display: block;
+    padding: 2rem;
+
+}
+
 
 @keyframes bounce-in-left{
     0%{
