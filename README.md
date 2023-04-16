@@ -28,6 +28,10 @@ This image shows my one of the additional features to the website, I worked on i
 This image shows my one of the additional features to the website, when a user is logged in, they are presented with more features  such as Home, dashboard, reviews and logout navbars:
 ![travel](/public//images/Readme4b.png)
 
+This image shows a continuation of the described above: 
+![travel](/public//images/Readme4c.png)
+
+
 This image shows the page that was created by my group for our  project:
 ![travel](/public//images/Readme5.png)
 
@@ -56,6 +60,9 @@ This image shows my one of the additional features to the website, I worked on i
 
 This page was accomplished with technologies such as Javascript,CSS,bcrypt, dotenv, handlebars, sequelize and express-session.  No neccessary installations needed, just view the deployed link here -> [deployed application](https://immense-retreat-79353.herokuapp.com/)
 
+## Usage
+
+To utilize the application, just click on the link here -> [deployed application](https://immense-retreat-79353.herokuapp.com/)
 
 ## Links
 
