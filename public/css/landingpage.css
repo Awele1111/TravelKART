@@ -78,12 +78,14 @@ input{
 
 }
 
-.cursive {
-    font-family: cursive;
+.different-font {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:bolder;
-    border-style: hidden;
-    border-color: antiquewhite;
     font-size: 35px;
+}
+.different-font:hover {
+   color: rgb(3, 46, 42);
+  text-transform: capitalize;
 }
 
 @keyframes bounce-in-left{
