@@ -17,7 +17,7 @@
 //    };
 // });
 
-// var swiper = new Swiper(".home-slider", {
+// var swiper = new Swiper(".home-switchr", {
 //    loop:true,
 //    navigation: {
 //      nextEl: ".swiper-button-next",
@@ -25,29 +25,29 @@
 //    },
 // });
 
-// var swiper = new Swiper(".reviews-slider", {
+// var swiper = new Swiper(".reviews-switch", {
 //    grabCursor:true,
 //    loop:true,
 //    autoHeight:true,
 //    spaceBetween: 20,
 //    breakpoints: {
 //       0: {
-//         slidesPerView: 1,
+//         switchPerView: 1,
 //       },
 //       700: {
-//         slidesPerView: 2,
+//         switchPerView: 2,
 //       },
 //       1000: {
-//         slidesPerView: 3,
+//         switchPerView: 3,
 //       },
 //    },
 // });
 
-// let loadMoreBtn = document.querySelector('.packages .load-more .btn');
+// let loadMoreBtn = document.querySelector('.locations .load-more .btn');
 // let currentItem = 3;
 
 // loadMoreBtn.onclick = () =>{
-//    let boxes = [...document.querySelectorAll('.packages .box-container .box')];
+//    let boxes = [...document.querySelectorAll('.locations .box-container .box')];
 //    for (var i = currentItem; i < currentItem + 3; i++){
 //       boxes[i].style.display = 'inline-block';
 //    };
