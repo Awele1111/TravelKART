@@ -11,8 +11,13 @@ h1{
     font-size: 30px;
     font-weight: bold;
     color: aliceblue;
+}   
 
+nav{
+font-size: 18px;
+    
 }
+
 h1:hover{
     color: black;
 }

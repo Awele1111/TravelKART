@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
-/* :root{ */
-   /* --main-color:#ee6e73; */
-   /* --black:#222;
-   --white:#d7bfc0; */
-   
-   /* --light-black:#777;
-   --light-white:#fff9; */
-   /* --dark-bg:rgba(0,0,0,.7);
-   --light-bg:#eee; */
-   /* --border:.1rem solid var(--black);
-   --box-shadow:0 .5rem 1rem rgba(0,0,0,.1); */
-   /* --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3); */
-/* } */
+
 
 *{
    font-family: 'Times New Roman', Times, serif;
@@ -80,9 +68,7 @@ html::-webkit-scrollbar-track{
    display: none;
 }
 
-.swiper-switch-active .info{
-   display: inline-block;
-}
+
 
  .switch .info span{
    display: block;
@@ -106,32 +92,6 @@ html::-webkit-scrollbar-track{
    animation:fadeIn .2s linear backwards .6s;
 }
 
- .swiper-button-next,
- .swiper-button-prev{
-   top:inherit;
-   left: inherit;
-   bottom: 0;
-   right: 0;
-   height: 7rem;
-   width: 7rem;
-   background: var(--white);
-   color:var(--black);
-}
-
- .swiper-button-next:hover,
-.swiper-button-prev:hover{
-   background: var(--main-color);
-   color:var(--white);
-}
-
- .swiper-button-next::after,
- .swiper-button-prev::after{
-   font-size: 2rem;
-}
-
- .swiper-button-prev{
-   right: 7rem;
-}
 
  .box-container{
    display: grid;
@@ -499,11 +459,11 @@ html::-webkit-scrollbar-track{
 @media (max-width:768px){
 
    .heading h1{
-      font-size: 4rem;
+      font-size: 6rem;
    }
 
    
-   .header .navbar{
+   .header {
       position: absolute;
       top:99%; left:0; right:0;
       background-color: var(--white);
@@ -513,11 +473,11 @@ html::-webkit-scrollbar-track{
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
    }
 
-   .header .navbar.active{
+   .header .active{
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
    }
 
-   .header .navbar a{
+   .header  a{
       display: block;
       margin:2rem;
       text-align: center;
