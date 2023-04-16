@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+/* /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
 /* :root{ */
    /* --main-color:#ee6e73; */
@@ -14,15 +14,15 @@
    /* --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3); */
 /* } */
 
-*{
+/* *{
    font-family: 'Times New Roman', Times, serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
-   text-decoration: none;
+   text-decoration: none; */
    /* text-transform: capitalize; */
    /* color: aliceblue; */
-}
+/* }
 
 html{
    font-size: 80.5%;
@@ -35,11 +35,11 @@ html::-webkit-scrollbar{
 
 html::-webkit-scrollbar-track{
    background-color:rgb(83, 130, 164);
-}
+} */
 
 
 
-.btn{
+/* .btn{ */
    /* display: inline-block;
    background: var(--black);
    margin-top: 1rem;
@@ -48,10 +48,10 @@ html::-webkit-scrollbar-track{
    padding:1rem 3rem;
    cursor: pointer; */
 
-   padding-bottom: 40px;
+   /* padding-bottom: 40px; */
     /* /* padding-top: 20px; */
      /* border-radius: 10px; */
-    align-items: center;
+    /* align-items: center;
     justify-content: center;
 
 }
@@ -211,10 +211,10 @@ html::-webkit-scrollbar-track{
 }
 
 .home-packages .box-container .box:hover .image img{
-   transform: scale(1.1);
-}
+   transform: scale(1.1); */
+} */
 
-.home-packages .box-container .box .image{
+/* .home-packages .box-container .box .image{
    height: 25rem;
    overflow: hidden;
 }
@@ -283,8 +283,8 @@ html::-webkit-scrollbar-track{
 
 .about .image img{
    width: 100%;
-}
-
+} */
+/* 
 .about .content{
    flex:1 1 41rem;
    text-align: center;
@@ -300,9 +300,9 @@ html::-webkit-scrollbar-track{
    color:var(--light-black);
    line-height: 2;
    padding:1rem 0;
-}
+} */
 
-.about .content .icons-container{
+/* .about .content .icons-container{
    margin-top: 2rem;
    display: flex;
    flex-wrap: wrap;
@@ -440,10 +440,55 @@ html::-webkit-scrollbar-track{
    background: var(--light-bg);
 }
 
+.booking .book-form .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap:2rem;
+}
+
+.booking .book-form .flex .inputBox{
+   flex:1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input{
+   width: 100%;
+   padding:1.2rem 1.4rem;
+   font-size: 1.6rem;
+   color:var(--light-black);
+   text-transform: none;
+   margin-top: 1.5rem;
+   border:var(--border);
+}
+
+.booking .book-form .flex .inputBox input:focus{
+   background: var(--black);
+   color:var(--white);
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+   color:var(--light-white);
+}
+
+.booking .book-form .flex .inputBox input::-webkit-calendar-picker-indicator{
+   filter: invert(1);
+}
+
+.booking .book-form .flex .inputBox span{
+   font-size: 1.5rem;
+   color:var(--light-black);
+}
+
+.booking .book-form .btn{
+   margin-top: 2rem; */
+}
+
+
+
+
 
 
 /* media queries  */
-
+/* 
 @media (max-width:1200px){
 
    section{
@@ -455,8 +500,8 @@ html::-webkit-scrollbar-track{
 @media (max-width:991px){
 
    html{
-      font-size: 55%;
-   }
+      font-size: 55%; */
+   /* }
 
    section{
       padding:3rem 2rem;
@@ -493,7 +538,7 @@ html::-webkit-scrollbar-track{
       display: block;
       margin:2rem;
       text-align: center;
-   }
+   } */
 
 }
 
@@ -505,4 +550,4 @@ html::-webkit-scrollbar-track{
 
    
    } */
-
+ */
