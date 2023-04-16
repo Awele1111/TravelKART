@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/jass.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/landingpage.css">
+    <link rel="stylesheet" href="/css/reviews.css">
     <title>Document</title>
     
 </head>
@@ -17,7 +18,7 @@
         <a href="/">Home |</a>
         {{#if logged_in}}
         <a href="/dashboard">Dashboard</a> |
-        <a href="/results">Reviews</a> |
+        <a href="/reviews">Reviews</a> |
         <button class="no-button" id="logout">Logout</button>
         {{else}}
         <a href="/login">Login/Sign-up</a>
@@ -28,5 +29,6 @@
    {{{body}}} 
    <script src="/js/login.js"></script>
  <script src="/js/logout.js"></script>
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </body>
 </html>

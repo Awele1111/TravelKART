@@ -28,13 +28,9 @@ p{
     font-size: 20px;
 
 }
-.btn {
-    padding-bottom: 40px;
-    /* /* padding-top: 20px; */
-    border-radius: 10px;
-    align-items: center;
-    justify-content: center;
-} 
+
+
+
 .flex{
     background: #ee6e73;
     border-radius: 0.1rem;

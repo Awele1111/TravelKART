@@ -76,9 +76,9 @@ router.get('/login', (req, res) => {
 
 
 
-router.get('/results', async (req, res) => {
+router.get('/reviews', async (req, res) => {
   try {
-    res.render('results', {
+    res.render('reviews', {
       logged_in: req.session.logged_in
     });
   } catch (err) {

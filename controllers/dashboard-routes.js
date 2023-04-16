@@ -29,17 +29,17 @@ router.get('/', (req,res) => {
 res.render('dashboard');
 })
 
-router.get('/results', (req, res) => {
+router.get('/reviews', (req, res) => {
   // If the user is already logged in, redirect the request to another route
   if (req.session.logged_in) {
-    res.redirect('/results');
+    res.redirect('/reviews');
     return;
   }
 
-  res.render('results');
+  res.render('reviews');
 });
 
-router.get('/results/id:', async (req, res) => {
+router.get('/reviews/id:', async (req, res) => {
   // If the user is already logged in, redirect the request to another route
  try {
    const tripData = await Location.findByPk(req.params.id, {
@@ -52,7 +52,7 @@ router.get('/results/id:', async (req, res) => {
   console.log(tripData);
   const location = tripData.get({ plain: true});
 
-  res.render('results', {
+  res.render('reviews', {
       ...location,
   logged_in: req.session.logged_in 
   });

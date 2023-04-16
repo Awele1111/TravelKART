@@ -1,4 +1,4 @@
-const resultEl = document.getElementById('result');
+const reviewsEl = document.getElementById('reviews');
 document.getElementById('location').addEventListener('click',function(e){
     e.preventDefault();
     console.log(document.getElementById('search-loc-term').value);
@@ -22,11 +22,11 @@ const loc = document.getElementById('search-loc-term').value
         accommodation_costEl.textContent = response[0].accommodation_cost;
 
 
-        resultEl.appendChild(traveler_ageEl);
-        resultEl.appendChild(traveler_genderEl);
-        resultEl.appendChild(traveler_nationalityEl);
-        resultEl.appendChild(accommodation_typeEl);
-        resultEl.appendChild(accommodation_costEl);
+        reviewsEl.appendChild(traveler_ageEl);
+        reviewsEl.appendChild(traveler_genderEl);
+        reviewsEl.appendChild(traveler_nationalityEl);
+        reviewsEl.appendChild(accommodation_typeEl);
+        reviewsEl.appendChild(accommodation_costEl);
         
     });
 })
