@@ -376,13 +376,13 @@ html::-webkit-scrollbar-track{
    text-align: center;
    margin-top: 2rem;
 }
-
+/* 
 .booking .book-form{
    padding:2rem;
    background: var(--light-bg);
-}
+} */
 
-.booking .book-form .flex{
+/* .booking .book-form .flex{
    display: flex;
    flex-wrap: wrap;
    gap:2rem;
@@ -392,7 +392,7 @@ html::-webkit-scrollbar-track{
    flex:1 1 41rem;
 }
 
-.booking .book-form .flex .inputBox input{
+.booking .book-form .flex input{
    width: 100%;
    padding:1.2rem 1.4rem;
    font-size: 1.6rem;
@@ -422,8 +422,51 @@ html::-webkit-scrollbar-track{
 
 .booking .book-form .btn{
    margin-top: 2rem;
+} */
+
+
+/* .flex{
+   display: flex;
+   flex-wrap: wrap;
+   gap:2rem;
 }
 
+ .flex .input-box{
+   flex:1 1 41rem;
+}
+
+ .flex input{
+   width: 100%;
+   padding:1.2rem 1.4rem;
+   font-size: 1.6rem;
+   color:var(--light-black);
+   text-transform: none;
+   margin-top: 1.5rem;
+   border:var(--border);
+}
+
+ .flex .input-box input:focus{
+   background: var(--black);
+   color:var(--white);
+}
+
+m .flex .input-box input:focus::placeholder{
+   color:var(--light-white);
+}
+
+ .flex .input-box input::-webkit-calendar-picker-indicator{
+   filter: invert(1);
+}
+
+ .flex .input-box span{
+   font-size: 1.5rem;
+   color:var(--light-black);
+}
+
+ .btn{
+   margin-top: 2rem;
+}
+ */
 
 
 
