@@ -78,6 +78,13 @@ input{
 
 }
 
+.cursive {
+    font-family: cursive;
+    font-weight:bolder;
+    border-style: hidden;
+    border-color: antiquewhite;
+    font-size: 35px;
+}
 
 @keyframes bounce-in-left{
     0%{
