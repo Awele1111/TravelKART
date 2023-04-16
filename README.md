@@ -23,7 +23,7 @@ This image shows the page that was created by my group for our  project:
 ![travel](/public//images/Readme3.png)
 
 This image shows my one of the additional features to the website, I worked on improving the UI, making the page more aesthically pleasing, more organized & improving user's experience on the page making it easer for users to input their information and navigate the website. This image also shows that when a user is not logged they are not presented with more features  such as Home, dashboard, reviews and logout navbars:
-![travel](/images/Readme4.png)
+![travel](/images/Readme4a.png)
 
 This image shows my one of the additional features to the website, when a user is logged in, they are presented with more features  such as Home, dashboard, reviews and logout navbars:
 ![travel](/public//images/Readme4b.png)
